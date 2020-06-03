@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 
 export class Dummy extends Component {
-    render(){
+    render() {
         return (<div>
+            <input type='text' />
+            <button>go</button>
         </div>)
     }
 }
